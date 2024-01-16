@@ -10,7 +10,7 @@
 </head>
   
 <body>
-    <h3 id="title">
+    <h3 id="title" >
         Select a player, spell and click on Submit.
     </h3>
       
@@ -30,6 +30,7 @@
   <input id ="player"  type="radio" name="player" value="anarchy">Clam
     <input id ="player"  type="radio" name="player" value="anarchy">Chaz
     <input id ="player"  type="radio" name="player" value="anarchy">Olu
+    <input id ="player"  type="radio" name="player" value="anarchy">Eddie
   </div>
     <br>
   <h3 id="title">Spell:</h3>
@@ -74,7 +75,7 @@
           <input id ="spell" type="radio" name="spell" value="chaos">Zodiac Cataclysm
   </div>
     <h3 id="result3"></h3>
-    <button id="submit" type="button" onclick="displayRadioValue();checkTypes()">
+    <button id="submit" type="button" onclick="displayRadioValue();checkTypes();markAsDone()">
         Submit
     </button>
       
